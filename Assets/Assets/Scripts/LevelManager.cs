@@ -239,4 +239,9 @@ public class LevelManager : MonoBehaviour
         }
         
     }
+
+    public void OnExit()
+    {
+        Application.Quit();
+    }
 }
